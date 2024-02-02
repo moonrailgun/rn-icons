@@ -2,10 +2,19 @@
   "name": "rn-icons_builders",
   "version": "1.0.0",
   "private": true,
-  "description": "",
+  "description": "SVG React Native icons of popular icon packs using ES6 imports",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
   "types": "lib/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:moonrailgun/rn-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moonrailgun/rn-icons/issues"
+  },
+  "homepage": "https://github.com/moonrailgun/rn-icons#readme",
   "scripts": {
     "ts": "node -r esbuild-register",
     "build": "pnpm ts ./scripts/build.ts",

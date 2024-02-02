@@ -11,6 +11,8 @@ Include popular icons in your React Native projects easily with `rn-icons`, whic
 yarn add react-native-svg rn-icons
 # or
 npm install react-native-svg rn-icons --save
+# or
+pnpm install react-native-svg rn-icons
 
 cd ios && pod install # for react-native-svg
 ```

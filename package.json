@@ -1,9 +1,13 @@
 {
   "name": "rn-icons-root",
+  "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "release": "pnpm release:rn-icons && pnpm release:rn-icons-all",
+    "release:rn-icons": "cd packages/_rn-icons_all && npm publish --registry=https://registry.npmjs.com/",
+    "release:rn-icons-all": "cd packages/_rn-icons_all-files && npm publish --registry=https://registry.npmjs.com/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
