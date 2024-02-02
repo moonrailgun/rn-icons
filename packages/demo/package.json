@@ -17,7 +17,7 @@
     "react-native": "0.73.2",
     "react-native-web": "~0.19.10",
     "rn-icons": "file:../_rn-icons_all",
-    "@rn-icons/all-files": "file:../_rn-icons_all-files"
+    "rn-icons-all": "file:../_rn-icons_all-files"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

@@ -5,14 +5,14 @@
 
 Include popular icons in your React Native projects easily with `rn-icons`, which utilizes ES6 imports that allows you to include only the icons that your project is using.
 
-## Installation (for standard modern project)
+## Installation
 
 ```bash
 yarn add react-native-svg rn-icons
 # or
 npm install react-native-svg rn-icons --save
 
-cd ios && pod install
+cd ios && pod install # for react-native-svg
 ```
 
 

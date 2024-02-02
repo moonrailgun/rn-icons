@@ -43,9 +43,6 @@ importers:
       '@expo/metro-runtime':
         specifier: ~3.1.2
         version: 3.1.2(react-native@0.73.2)
-      '@rn-icons/all-files':
-        specifier: file:../_rn-icons_all-files
-        version: file:packages/_rn-icons_all-files(@types/react@18.2.51)(react-native-svg@14.1.0)(react-native@0.73.2)(react@18.2.0)
       expo:
         specifier: ~50.0.5
         version: 50.0.5(@babel/core@7.23.9)(@react-native/babel-preset@0.73.20)
@@ -67,6 +64,9 @@ importers:
       rn-icons:
         specifier: file:../_rn-icons_all
         version: file:packages/_rn-icons_all(@types/react@18.2.51)(react-native-svg@14.1.0)(react-native@0.73.2)(react@18.2.0)
+      rn-icons-all:
+        specifier: file:../_rn-icons_all-files
+        version: file:packages/_rn-icons_all-files(@types/react@18.2.51)(react-native-svg@14.1.0)(react-native@0.73.2)(react@18.2.0)
     devDependencies:
       '@babel/core':
         specifier: ^7.20.0
@@ -7393,7 +7393,7 @@ packages:
   file:packages/_rn-icons_all-files(@types/react@18.2.51)(react-native-svg@14.1.0)(react-native@0.73.2)(react@18.2.0):
     resolution: {directory: packages/_rn-icons_all-files, type: directory}
     id: file:packages/_rn-icons_all-files
-    name: '@rn-icons/all-files'
+    name: rn-icons-all
     peerDependencies:
       '@types/react': ^18.2.51
       react: ^18.2.0
