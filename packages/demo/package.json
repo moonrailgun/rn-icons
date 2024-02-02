@@ -1,0 +1,28 @@
+{
+  "name": "rn-icons_demo",
+  "version": "1.0.0",
+  "main": "./index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~3.1.2",
+    "expo": "~50.0.5",
+    "expo-status-bar": "~1.11.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.73.2",
+    "react-native-web": "~0.19.10",
+    "rn-icons": "file:../_rn-icons_all",
+    "@rn-icons/all-files": "file:../_rn-icons_all-files"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.2.45",
+    "typescript": "^5.1.3"
+  },
+  "private": true
+}

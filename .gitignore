@@ -1,0 +1,10 @@
+node_modules
+dist
+lib
+*.log
+*.tgz
+
+packages/_rn-icons_all/*
+!packages/_rn-icons_all/package.json
+packages/_rn-icons_all-files/*
+!packages/_rn-icons_all-files/package.json
