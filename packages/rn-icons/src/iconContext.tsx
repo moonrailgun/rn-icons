@@ -3,7 +3,7 @@ import { ViewStyle } from 'react-native';
 import { SvgProps } from 'react-native-svg';
 
 export interface IconContext {
-  size?: string;
+  size?: string | number;
   style?: ViewStyle;
   attr?: SvgProps;
 }

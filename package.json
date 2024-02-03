@@ -1,7 +1,6 @@
 {
   "name": "rn-icons-root",
   "private": true,
-  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {

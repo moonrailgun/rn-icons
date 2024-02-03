@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Svg } from 'react-native-svg';
+import { Svg, SvgProps } from 'react-native-svg';
 import { IconContext, DefaultContext } from './iconContext';
 import { View, ViewStyle } from 'react-native';
 import { SvgTagKeys, tagMap } from './svgTags';
@@ -38,7 +38,7 @@ export function GenIcon(data: IconTree) {
   );
 }
 
-export interface IconBaseProps {
+export interface IconBaseProps extends SvgProps {
   children?: React.ReactNode;
   size?: string | number;
   title?: string;
@@ -50,8 +50,8 @@ export function IconBase(
   props: IconBaseProps & { attr?: Record<string, string> }
 ): JSX.Element {
   const elem = (conf: IconContext) => {
-    const { attr, size, title, ...svgProps } = props;
-    const computedSize = size || conf.size || '1em';
+    const { attr, size, title, children, ...svgProps } = props;
+    const computedSize = size || conf.size || 16;
 
     return (
       <Svg
@@ -69,7 +69,7 @@ export function IconBase(
         width={computedSize}
       >
         {title && <title>{title}</title>}
-        {props.children}
+        {children}
       </Svg>
     );
   };

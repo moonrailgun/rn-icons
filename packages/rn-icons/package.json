@@ -1,6 +1,6 @@
 {
   "name": "rn-icons_builders",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "private": true,
   "description": "SVG React Native icons of popular icon packs using ES6 imports",
   "main": "lib/index.js",
