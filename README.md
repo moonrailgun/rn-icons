@@ -36,6 +36,12 @@ function Question() {
 
 For example, to use an icon from **Material Design**, your import would be: `import { ICON_NAME } from 'rn-icons/md';`
 
+## How to pick icons
+
+Checkout this website: [https://react-icons.github.io/react-icons/](https://react-icons.github.io/react-icons/). you can view all icons.
+
+and replace library name from `react-icons` to `rn-icons` will be ok.
+
 ## Icons
 
 | Icon Library                                                            | License                                                                                           | Version                                  | Count |

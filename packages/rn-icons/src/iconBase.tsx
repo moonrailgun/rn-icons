@@ -55,9 +55,6 @@ export function IconBase(
 
     return (
       <Svg
-        stroke="currentColor"
-        fill="currentColor"
-        strokeWidth="0"
         {...conf.attr}
         {...attr}
         {...svgProps}

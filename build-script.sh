@@ -10,8 +10,8 @@ fi
 time (cd packages/rn-icons/ && pnpm fetch)
 time (cd packages/rn-icons/ && pnpm build)
 echo VERSIONS; cat packages/rn-icons/VERSIONS
-(cd packages/_rn-icons_all/ && npm pack |& tail)
-(cd packages/_rn-icons_all-files/ && npm pack |& tail)
+# (cd packages/_rn-icons_all/ && npm pack |& tail)
+# (cd packages/_rn-icons_all-files/ && npm pack |& tail)
 
 # (cd packages/preview-astro/ && pnpm build)
 # (cd packages/demo/ && CI=true pnpm test && pnpm build)
