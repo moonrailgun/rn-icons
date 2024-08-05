@@ -1,6 +1,6 @@
 {
   "name": "rn-icons",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "SVG React Native icons of popular icon packs using ES6 imports",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
@@ -221,6 +221,12 @@
       "require": "./lia/index.js",
       "import": "./lia/index.mjs",
       "default": "./lia/index.mjs"
+    },
+    "./st": {
+      "types": "./st/index.d.ts",
+      "require": "./st/index.js",
+      "import": "./st/index.mjs",
+      "default": "./st/index.mjs"
     }
   }
 }

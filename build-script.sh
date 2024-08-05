@@ -6,9 +6,9 @@ if [[ -f package-lock.json ]]; then
   exit 1
 fi
 
-(cd packages/rn-icons/ && pnpm type-check)
-time (cd packages/rn-icons/ && pnpm fetch)
-time (cd packages/rn-icons/ && pnpm build)
+(cd packages/rn-icons/ && pnpm run type-check)
+time (cd packages/rn-icons/ && pnpm run fetch)
+time (cd packages/rn-icons/ && pnpm run build)
 echo VERSIONS; cat packages/rn-icons/VERSIONS
 # (cd packages/_rn-icons_all/ && npm pack |& tail)
 # (cd packages/_rn-icons_all-files/ && npm pack |& tail)

@@ -787,4 +787,25 @@ export const icons: IconDefinition[] = [
       hash: '78a101217707c9b1c4dcf2a821be75684e36307f',
     },
   },
+  {
+    id: 'st',
+    name: 'Stratis Icons',
+    contents: [
+      {
+        files: path.resolve(__dirname, '../../icons/stratis-icons/svg/*.svg'),
+        formatter: (name) => `St${camelcase(name, { pascalCase: true })}`,
+      },
+    ],
+    projectUrl: 'https://github.com/moonrailgun/stratis-icons',
+    license: 'CC BY 4.0 License',
+    licenseUrl: 'https://creativecommons.org/licenses/by/4.0/',
+    source: {
+      type: 'git',
+      localName: 'stratis-icons',
+      remoteDir: 'svg/',
+      url: 'https://github.com/moonrailgun/stratis-icons.git',
+      branch: 'master',
+      hash: '6667748fec6720b8651361c263f710717ef89a43',
+    },
+  },
 ];
